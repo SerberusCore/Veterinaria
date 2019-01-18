@@ -2,4 +2,5 @@
 Proyecto de veterinarias
 
 ## Software a usar
-- Wireframe Sketcher
+- Wireframe Sketcher 5.1.0
+- StarUML 3.0.2
