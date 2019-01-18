@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="6" x="10" y="10" width="850" measuredWidth="850" measuredHeight="50">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Navbar"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Navigation.screen#Navbar"/>
     <overrides>
       <widgets ref="20" width="850"/>
       <widgets ref="24" text="{assets/fa-search}"/>
       <widgets ref="25" x="762" y="2" text="Login {assets/fa-sign-in}">
         <font size="13px"/>
-        <items ref="@items.0" text="Login {assets/fa-sign-in}" link="Login/Login.screen"/>
+        <items ref="@items.0" text="Login {assets/fa-sign-in}" link="Login.screen"/>
         <itemChanges xsi:type="o:Delete" ref="@items.1"/>
       </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="7" x="10" y="70" width="850" measuredWidth="850" measuredHeight="387">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Jumbotron"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Content.screen#Jumbotron"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="5"/>
       <widgetChanges xsi:type="o:Insert" newIndex="1">
@@ -27,7 +27,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="13" x="640" y="129" width="201" height="208" measuredWidth="201" measuredHeight="208">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Media.screen#Thumbnail"/>
     <overrides>
       <widgets ref="8" width="201" height="208"/>
       <widgets ref="7" width="189" height="196"/>

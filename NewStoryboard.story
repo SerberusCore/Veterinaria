@@ -4,6 +4,6 @@
     <screen href="Index.screen#/"/>
   </panels>
   <panels id="NGjweh7j9K-ApUaaRe8pjSoDPz8=" x="375" y="75">
-    <screen href="Login.screen#/"/>
+    <screen href="Login/Login.screen#/"/>
   </panels>
 </story:Storyboard>

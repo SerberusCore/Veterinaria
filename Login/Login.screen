@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="6" x="10" y="10" width="850" measuredWidth="850" measuredHeight="50">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Navigation.screen#Navbar"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Navigation.screen#Navbar"/>
     <overrides>
       <widgets ref="20" width="850"/>
       <widgets ref="24" text="{assets/fa-search}"/>
@@ -12,7 +12,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="7" x="10" y="70" width="850" measuredWidth="850" measuredHeight="387">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Jumbotron"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Content.screen#Jumbotron"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="5"/>
       <widgetChanges xsi:type="o:Insert" newIndex="1">
@@ -26,7 +26,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="13" x="640" y="129" width="201" height="208" measuredWidth="201" measuredHeight="208">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Media.screen#Thumbnail"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Media.screen#Thumbnail"/>
     <overrides>
       <widgets ref="8" width="201" height="208"/>
       <widgets ref="7" width="189" height="196"/>
@@ -34,7 +34,7 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="14" x="-8" width="889" height="633" measuredWidth="889" measuredHeight="633" background="black" alpha="128" border="none"/>
   <widgets xsi:type="model:Master" id="16" x="186" y="144" measuredWidth="600" measuredHeight="323">
-    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Modal"/>
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Content.screen#Modal"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="106"/>
       <widgetChanges xsi:type="o:Delete" ref="104"/>
@@ -45,7 +45,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="15" x="321" y="225" measuredWidth="329" measuredHeight="183">
-    <screen xsi:type="model:Screen" href="assets/Bootstrap/Templates/Signin.screen#/"/>
+    <screen xsi:type="model:Screen" href="../assets/Bootstrap/Templates/Signin.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="1"/>
       <widgets ref="2" x="184" y="98" width="329"/>
@@ -54,7 +54,7 @@
       <widgets ref="3/1" width="329"/>
       <widgets ref="4" x="184" y="178"/>
       <widgets ref="5" x="184" y="236" width="329"/>
-      <widgets ref="5/47" width="329"/>
+      <widgets ref="5/47" width="329" text="Ingresar"/>
       <widgets ref="3/13" x="189" y="50"/>
       <widgets ref="5/46" x="189" y="385"/>
       <widgets ref="2/13" x="189" y="50"/>
@@ -66,6 +66,8 @@
   <widgets xsi:type="model:Link" id="18" x="201" y="429" text="Nuevo" measuredWidth="46" measuredHeight="28">
     <font/>
   </widgets>
+  <widgets xsi:type="model:Icon" id="19" x="292" y="233" measuredWidth="24" measuredHeight="24" icon="assets/fa-user-tie (medium)"/>
+  <widgets xsi:type="model:Icon" id="20" x="292" y="270" measuredWidth="24" measuredHeight="24" icon="assets/fa-key (medium)"/>
   <hRuler/>
   <vRuler/>
   <font size="14px"/>
