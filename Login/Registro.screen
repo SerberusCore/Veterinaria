@@ -22,7 +22,7 @@
         </object>
       </widgetChanges>
       <widgets ref="2" width="850" height="387"/>
-      <widgets ref="4" text="Veterinaria"/>
+      <widgets ref="4" text="Registro de Usuario"/>
       <widgets ref="7" y="322" text="Leer {assets/fa-plus}"/>
     </overrides>
   </widgets>
