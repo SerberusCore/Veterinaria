@@ -7,7 +7,7 @@
       <widgets ref="24" text="{assets/fa-search}"/>
       <widgets ref="25" x="762" y="2" text="Login {assets/fa-sign-in}">
         <font size="13px"/>
-        <items ref="@items.0" text="Login {assets/fa-sign-in}" link="Login.screen"/>
+        <items ref="@items.0" text="Login {assets/fa-sign-in}"/>
         <itemChanges xsi:type="o:Delete" ref="@items.1"/>
       </widgets>
     </overrides>
@@ -68,16 +68,35 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="19" x="637" y="585" measuredWidth="68" measuredHeight="34" link="RegistroOk.screen">
+  <widgets xsi:type="model:Master" id="19" x="637" y="585" measuredWidth="68" measuredHeight="34">
     <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Primary"/>
     <overrides>
       <widgets ref="35" text="Guardar"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="20" x="720" y="585" measuredWidth="70" measuredHeight="34" link="../Index.screen">
+  <widgets xsi:type="model:Master" id="20" x="720" y="585" measuredWidth="70" measuredHeight="34">
     <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Danger"/>
     <overrides>
       <widgets ref="43" text="Cancelar"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="21" x="12" y="10" height="639" measuredWidth="848" measuredHeight="639">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Content.screen#Modal%20Background"/>
+    <overrides>
+      <widgets ref="109" width="848" height="639"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="152" y="220" measuredWidth="600" measuredHeight="219">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Content.screen#Modal"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="8">
+        <object xsi:type="model:Icon" id="23" x="504" y="68" foreground="#6aa84f" icon="assets/fa-check-circle (xlarge)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="104"/>
+      <widgetChanges xsi:type="o:Delete" ref="97"/>
+      <widgets ref="100" text="Registro"/>
+      <widgets ref="102" text="Registro realizado correctamente"/>
+      <widgets ref="106" width="103" text="ok" link="Login.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

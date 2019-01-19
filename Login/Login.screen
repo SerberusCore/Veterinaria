@@ -42,6 +42,7 @@
       <widgetChanges xsi:type="o:Delete" ref="98"/>
       <widgets ref="94" height="323"/>
       <widgets ref="100" text="Ingrese"/>
+      <widgets ref="97" link="../Index.screen"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="15" x="321" y="225" measuredWidth="329" measuredHeight="183">
@@ -60,10 +61,10 @@
       <widgets ref="2/13" x="189" y="50"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Link" id="17" x="646" y="429" text="Olvidé Contraseña" measuredWidth="124" measuredHeight="28">
+  <widgets xsi:type="model:Link" id="17" x="646" y="429" text="Olvidé Contraseña" measuredWidth="110" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="18" x="201" y="429" text="Nuevo" measuredWidth="46" measuredHeight="28">
+  <widgets xsi:type="model:Link" id="18" x="201" y="429" text="Nuevo" measuredWidth="41" measuredHeight="25" link="Registro.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="19" x="292" y="233" measuredWidth="24" measuredHeight="24" icon="assets/fa-user-tie (medium)"/>
