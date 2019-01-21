@@ -33,42 +33,24 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="14" x="-8" width="889" height="633" measuredWidth="889" measuredHeight="633" background="black" alpha="128" border="none"/>
-  <widgets xsi:type="model:Master" id="16" x="186" y="144" measuredWidth="600" measuredHeight="323">
+  <widgets xsi:type="model:Master" id="16" x="186" y="144" height="273" measuredWidth="600" measuredHeight="273">
     <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Content.screen#Modal"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="106"/>
       <widgetChanges xsi:type="o:Delete" ref="104"/>
       <widgetChanges xsi:type="o:Delete" ref="102"/>
       <widgetChanges xsi:type="o:Delete" ref="98"/>
-      <widgets ref="94" height="323"/>
-      <widgets ref="100" text="Ingrese"/>
-      <widgets ref="97" link="../Index.screen"/>
+      <widgets ref="94" height="273" text="Se envió correctamente la contraseña a su mail"/>
+      <widgets ref="100" text="Olvidó su contraseña"/>
+      <widgets ref="97" link="Login.screen"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="15" x="321" y="225" measuredWidth="329" measuredHeight="183">
-    <screen xsi:type="model:Screen" href="../assets/Bootstrap/Templates/Signin.screen#/"/>
+  <widgets xsi:type="model:Master" id="22" x="722" y="361" measuredWidth="38" measuredHeight="34" link="Login.screen">
+    <screen xsi:type="model:WidgetGroup" href="../assets/Bootstrap/Buttons.screen#Button%20Primary"/>
     <overrides>
-      <widgetChanges xsi:type="o:Delete" ref="1"/>
-      <widgets ref="2" x="184" y="98" width="329"/>
-      <widgets ref="2/1" width="329"/>
-      <widgets ref="3" x="184" y="135" width="329"/>
-      <widgets ref="3/1" width="329"/>
-      <widgets ref="4" x="184" y="178"/>
-      <widgets ref="5" x="184" y="236" width="329"/>
-      <widgets ref="5/47" width="329" text="Ingresar"/>
-      <widgets ref="3/13" x="189" y="50"/>
-      <widgets ref="5/46" x="189" y="385"/>
-      <widgets ref="2/13" x="189" y="50"/>
+      <widgets ref="35" text="OK"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Link" id="17" x="646" y="429" text="Olvidé Contraseña" measuredWidth="110" measuredHeight="25" link="OlvidoContraseña.screen">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Link" id="18" x="201" y="429" text="Nuevo" measuredWidth="41" measuredHeight="25" link="Registro.screen">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="19" x="292" y="233" measuredWidth="24" measuredHeight="24" icon="assets/fa-user-tie (medium)"/>
-  <widgets xsi:type="model:Icon" id="20" x="292" y="270" measuredWidth="24" measuredHeight="24" icon="assets/fa-key (medium)"/>
   <hRuler/>
   <vRuler/>
   <font size="14px"/>
